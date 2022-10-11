@@ -1,0 +1,114 @@
+html, body{
+    background-color: #ffffff;
+}
+
+body{
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 1.75vw;
+    font-weight: normal;
+    
+    color: #000000;
+    
+    line-height: 1.2;
+}
+
+#header{
+    height: 7vw;
+    width: 100%;
+
+    background-color: #00000044;
+
+    position: fixed;
+    z-index: 999;
+
+    top: 0;
+    left: 0;
+}
+
+#g-nav{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#g-nav li{
+    list-style: none;
+}
+
+#g-nav li a{
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+
+    padding: 2.5vw;
+}
+
+.title{
+    font-size: 2.5vw;
+    
+    font-weight: bold;
+}
+
+.sec{
+    background-color: #eeeeee;
+    
+    width: 80vw;
+    height: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+    padding-top: 2vw;
+    padding-bottom:2vw;
+    
+    text-align: justify;
+    
+    line-height: 2.2;
+    
+}
+
+.none{
+    color: #000000;
+    display: inline;
+    
+    text-align: justify;
+}
+
+.hide{
+    color: #00000000;
+    
+    width: 75px;
+    
+    background-color: #444444;
+    
+    display: inline;
+    
+    transition: all 0.4s;
+    
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    
+    font-weight: normal;
+}
+
+.hide:hover{
+    color: #000000;
+    
+    background-color: #eeeeee;
+    
+    font-size: 2vw;
+    
+    font-weight: bold;
+}
+
+.num{
+    font-size: 2.25vw;
+    font-weight: bold;
+}
